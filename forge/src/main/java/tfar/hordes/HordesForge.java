@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package tfar.hordes;
 
 import net.minecraftforge.fml.common.Mod;
 
-@Mod(CommonClass.MOD_ID)
+@Mod(Hordes.MOD_ID)
 public class ExampleMod {
     
     public ExampleMod() {
@@ -12,8 +12,8 @@ public class ExampleMod {
         // project.
     
         // Use Forge to bootstrap the Common mod.
-        CommonClass.LOG.info("Hello Forge world!");
-        CommonClass.init();
+        Hordes.LOG.info("Hello Forge world!");
+        Hordes.init();
         
     }
 }

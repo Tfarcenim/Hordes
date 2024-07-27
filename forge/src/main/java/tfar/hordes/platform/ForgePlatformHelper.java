@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package tfar.hordes.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import tfar.hordes.platform.services.IPlatformHelper;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.loading.FMLLoader;
 
